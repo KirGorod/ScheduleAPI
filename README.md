@@ -1,4 +1,5 @@
 # ScheduleAPI
+Python version: Python 3.8.8
 
 ## 1. Installation: 
 1. Clone project:
