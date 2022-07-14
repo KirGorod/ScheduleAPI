@@ -42,6 +42,7 @@ http://127.0.0.1:8000/api/token/refresh/ - update token
 http://127.0.0.1:8000/api/register/ ['POST'] - register customer
 http://127.0.0.1:8000/api/test/ ['GET', 'POST'] - token testing endpoint
 ```
+?offset&limit params are available
 
 ## 4. Site Administration:
 1. Log in to http://127.0.0.1:8000/admin/ as superuser
