@@ -38,6 +38,7 @@ http://127.0.0.1:8000/api/location/ ['GET'] - get location list
 http://127.0.0.1:8000/api/workers/ ['GET'] - get worker's list
 http://127.0.0.1:8000/api/worker/<id>/ ['GET'] - get single worker
 http://127.0.0.1:8000/api/appointments/ ['GET'] - get appointments list
+http://127.0.0.1:8000/api/appointments/ ['POST'] - {start_time: HH:MM, end_time: HH:MM, date: YYYY-mm-dd, worker: worker.id, customer: customer.id}
 http://127.0.0.1:8000/api/token/ - get login token
 http://127.0.0.1:8000/api/token/refresh/ - update token
 http://127.0.0.1:8000/api/register/ ['POST'] - register customer
